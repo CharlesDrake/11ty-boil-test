@@ -1,8 +1,8 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
+    background: #343434;
+    padding: 0 50px;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@ nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    background: #3f84e5;
 }
 
 nav ul {
@@ -47,4 +47,73 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sattitle{
+    padding-top: 20px;
+    padding-right: 190px;
+}
+
+.startitle{
+    padding-top: 20px;
+    padding-left: 190px;
+}
+
+.space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Saturn{
+    padding-top: 20px;
+    padding-right: 90px;
+}
+
+img.rings{
+    width: 339px;
+    height: 294px;
+}
+
+img.big{
+    width: 339px;
+    height: 294px;
+}
+
+.Stars{
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+img.saturn{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    width: 339px;
+    height: 294px;
+}
+
+img.stars{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 339px;
+    height: 294px;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.home{
+    text-align: center;
 }
