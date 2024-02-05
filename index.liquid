@@ -4,4 +4,22 @@ title: 11ty Boilerplate
 ---
 
 <h1>Welcome to <strong>Space!</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+{% user 'Charles' 'CharlesDrake' %}
+<p class="home">Hello! This is a blog post about space and certain aspects of 
+space. I am specifically focusing on the second largest planet in our solar system,
+Saturn, and the biggest star that we currently know of.</p>
+
+<div class="title">
+    <h2 class="sattitle">Saturn!</h2>
+    <h2 class="startitle">Biggest Star!?</h2>
+</div>
+<div class="space">
+    <div class="Saturn">
+        <a href="/saturn/" title="Blog about Saturn">
+        <img class="rings" alt="Saturn" src="images/Saturn.png">
+    </div>    
+    <div class="Stars">
+        <a href="/star/" title="Blog about biggest star">
+        <img class="big" alt="Stars" src="images/Stars.png">
+    </div>
+</div>
