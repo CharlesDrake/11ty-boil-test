@@ -4,7 +4,6 @@ title: About
 ---
 
 # About the **Blog**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
 {% user 'Charles' 'CharlesDrake' %}
 
 <p class="home">
